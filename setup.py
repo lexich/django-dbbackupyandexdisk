@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 import os
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 setup(
-    name='dbbackupyandexdisk',
-    version='0.0.1',
+    name='django-dbbackupyandexdisk',
+    version='0.0.2',
     include_package_data=True,
     py_modules=['dbbackupyandexdisk'],
     url='https://github.com/lexich/django-dbbackupyandexdisk',
